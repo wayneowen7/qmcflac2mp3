@@ -20,3 +20,9 @@ python qmcflac.py -o /tmp/mp3_dir -i /tmp/qmcflac_dir
 qmc->flac: https://github.com/Presburger/qmc-decoder
 flac->mp3: https://github.com/robinbowes/flac2mp3
 ```
+##补充macOS环境下需要添加的包
+flac,lame包需要再安装
+```bash
+brew install flac
+brew install flam
+```
